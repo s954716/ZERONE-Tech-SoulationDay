@@ -1,0 +1,19 @@
+/*==========================
+    Contact
+===========================*/
+.cdr-contact {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__overlay {
+        background: rgba($dark-bg-2, .85);
+    }
+    &__form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        background: $white;
+    }
+}

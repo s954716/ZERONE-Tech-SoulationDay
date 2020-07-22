@@ -1,0 +1,133 @@
+@media screen and (min-width: 576px) {
+  .cdr-contact__form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cdr-testimonial__slider-item {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  #cdr-banner {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #cdr-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .cdr-product__body {
+    padding: 15px;
+  }
+  .navstyle-2 .navbar-nav li a {
+    width: 100%;
+    color: #30323d;
+  }
+  .navstyle-2 .navbar-nav li .sub-menu {
+    transition: all 0.3s ease;
+  }
+  .navstyle-2 .navbar-nav li .sub-menu li {
+    text-align: left;
+  }
+  .navstyle-2 .navbar-nav li .sub-menu li a {
+    width: 100%;
+  }
+  .navstyle-2 .navbar-nav li .sub-menu li:hover > a {
+    color: #ff94b1;
+  }
+  .navstyle-2 .navbar-nav li .button {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+  .navstyle-2 .navbar-nav li.current-menu-item {
+    text-align: center;
+  }
+  .navstyle-2 .navbar-nav li.current-menu-item a {
+    color: #FFDB5C;
+  }
+  .sub-menu {
+    width: 250px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #1c1a38;
+  }
+  .sub-menu li {
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .sub-menu li:last-child {
+    border-bottom: none;
+  }
+  .sub-menu li a {
+    width: 100%;
+    color: #ffffff !important;
+    padding-left: 20px;
+    display: inline-block;
+  }
+  .navstyle-1 {
+    padding-top: 30px;
+  }
+  .navstyle-2 {
+    padding-top: 30px;
+  }
+  .cdr-logo {
+    font-size: 40px;
+  }
+  .navbar-collapse {
+    position: inherit;
+    background: transparent;
+  }
+  .navbar-nav {
+    align-items: center;
+    margin-left: auto;
+    margin-right: inherit !important;
+  }
+  .navbar-nav li {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .navbar-nav li a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cdr-product__title {
+    font-size: 48px;
+  }
+  .cdr-product__body {
+    padding: 30px;
+  }
+  .cdr-testimonial__slider-item.slick-current + .slick-active {
+    background-image: linear-gradient(-45deg, #ff0f83, #ff3460);
+    color: #ffffff;
+  }
+  .cdr-testimonial__slider-item.slick-current + .slick-active .cdr-testimonial__author {
+    color: #ffffff;
+  }
+  .cdr-testimonial__slider-item.slick-current + .slick-active .cdr-testimonial__role {
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .cdr-contact__form {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #cdr-banner {
+    padding-top: 130px;
+    padding-bottom: 183px;
+  }
+  #cdr-about {
+    padding-top: 105px;
+  }
+}

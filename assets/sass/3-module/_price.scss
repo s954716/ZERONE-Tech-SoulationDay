@@ -1,0 +1,12 @@
+/*==========================
+    Price
+===========================*/
+.cdr-price {
+    display: flex;
+    &__regular {
+        margin-right: 14px;
+        color: $regular-text;
+        text-decoration: line-through;
+
+    }
+}

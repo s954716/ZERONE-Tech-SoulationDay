@@ -1,0 +1,23 @@
+/*==========================
+    Form
+===========================*/
+.cdr-form {
+    &__input {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background: $input-bg;
+        font-size: 14px;
+        &::placeholder {
+            text-transform: capitalize;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__textarea {
+        @extend .cdr-form__input;
+        resize: none;
+    }
+}

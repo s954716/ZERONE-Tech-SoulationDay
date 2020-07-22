@@ -1,0 +1,17 @@
+/*==========================
+    Features Section
+===========================*/
+.cdr-features {
+    padding-top: 400px;
+    padding-bottom: 150px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    &--alt {
+        background-position: center left;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

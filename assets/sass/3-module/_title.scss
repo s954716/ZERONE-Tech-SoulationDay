@@ -1,0 +1,13 @@
+/*==========================
+    Section Title
+===========================*/
+.cdr-title {
+    &__is {
+        text-transform: capitalize;
+        margin-bottom: 28px;
+    }
+    &__sub {
+        display: block;
+        font-size: 20px;
+    }
+}

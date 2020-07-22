@@ -1,0 +1,88 @@
+/*---------------------------------------
+    Template name: Buex
+    Template URI: 
+    Description: 
+    Template Author: 
+    Template Author URI: 
+    Version: 1.0
+-----------------------------------------
+    Table of contents
+-----------------------------------------
+    0.0 Vendor Style
+        => Bootstrap
+        => Fontawesome
+        => slick slider
+
+    0.1 Base Style
+        => Function
+        => Variable
+        => Mixins
+        => Global style
+        => Gutenberg support
+
+    0.2 Layout Style
+        => Header
+        => Banner
+        => About
+        => Video
+        => Footer
+
+    0.3 Modules Style
+        => Logo
+        => Menu icon
+        => Navstyle
+        => Button
+        => list
+        => Product
+        => Video
+        => Title
+        => Features
+        => Card
+        => testimonial
+        => CTA
+        => Rating
+        => Price
+        => Accordion
+        => Contact
+        => Form
+        => Footer widget
+        => Footer
+        => Back top
+        => Preloader
+        => Menu
+
+    0.4 State Style 
+    
+    0.5 Theme Style
+    
+-----------------------------------------*/
+
+/*---------------------------------------
+    0.0 Vendor Style
+-----------------------------------------*/
+@import "0-vendor/0-vendor";
+
+/*---------------------------------------
+    0.1 Base Style
+-----------------------------------------*/
+@import "1-base/1-base";
+
+/*---------------------------------------
+    0.2 Section Style
+-----------------------------------------*/
+@import "2-layout/2-layout";
+
+/*---------------------------------------
+    0.3 Modules Style
+-----------------------------------------*/
+@import "3-module/3-module";
+
+/*---------------------------------------
+    0.4 State Style
+-----------------------------------------*/
+@import "4-state/4-state";
+
+/*---------------------------------------
+    0.5 Theme Style
+-----------------------------------------*/
+@import "5-theme/5-theme";

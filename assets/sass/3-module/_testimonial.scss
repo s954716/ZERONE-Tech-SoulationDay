@@ -1,0 +1,51 @@
+/*==========================
+    Testimonial
+===========================*/
+.cdr-testimonial {
+    background: $light-bg;
+    &__slider {
+        &-item {
+            margin-bottom: 60px;
+            padding-top: 40px;
+            padding-bottom: 60px;
+            padding-left: 30px;
+            padding-right: 30px;
+            position: relative;
+            border-radius: 5px;
+            background: $white;
+            text-align: center;
+            &:focus {
+                outline: none;
+            }
+        }
+        &-text {
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+    }
+    &__author {
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    &__role {
+        font-size: 14px;
+        color: $text-light;
+        text-transform: capitalize;
+    }
+    &__img-wrapper {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 50%;
+        bottom: -60px;
+        transform: translateX(-50%);
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

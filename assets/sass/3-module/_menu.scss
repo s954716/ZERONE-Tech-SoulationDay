@@ -1,0 +1,38 @@
+/*==========================
+    Menu
+===========================*/
+.sub-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: rgba($black, .3);
+    display: none;
+    transition: all .3s ease;
+    a {
+        transition: all .3s ease;
+        &:hover {
+            color: $secondary !important;
+        }
+    }
+}
+.menu-item-has-children {
+    position: relative;
+    transition: all .3s ease;
+    &:hover {
+        .sub-menu {
+            display: block;
+            transition: all .3s ease;
+            li:hover> {
+                a {
+                    color: lighten($primary, 20%);
+                }
+            }
+        }
+    }
+}
+// .current-menu-item {
+//     color: $secondary !important;
+//     a {
+//         color: $secondary;
+//     }
+// }

@@ -1,0 +1,186 @@
+//Import variables
+@import "1-base/variables";
+
+//xExtra Small Screen
+@media screen and (max-width: 320px) {
+}
+
+//Extra Small Screen
+@media screen and (max-width: 575px) {
+}
+
+//Small Screen (min-width: 576)
+@media screen and (min-width: 576px) {
+    .cdr-contact__form {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    // #cdr-header {
+    //     height: 1010px;
+    // }
+}
+
+//Medium Screen (min-width: 768)
+@media screen and (min-width: 768px) {
+    .cdr-testimonial__slider-item {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    // #cdr-header {
+    //     height: 800px;
+    // }
+    #cdr-banner {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+}
+
+//Large Screen (min-width: 992)
+@media screen and (min-width: 992px) {
+    #cdr-banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .cdr-product__body {
+        padding: 15px;
+    }
+    .navstyle-2 {
+        .navbar-nav {
+            li {
+                a {
+                    width: 100%;
+                    color: $heading;
+                }
+                .sub-menu {
+                    transition: all 0.3s ease;
+                    li {
+                        text-align: left;
+                        a {
+                            width: 100%;
+                        }
+                    }
+                    li:hover > {
+                        a {
+                            color: lighten($primary, 20%);
+                        }
+                    }
+                }
+                .button {
+                    box-shadow: 0 8px 18px rgba($black, 0.15);
+                }
+            }
+            li.current-menu-item {
+                text-align: center;
+                a {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+    .sub-menu {
+        width: 250px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: $dark;
+        li {
+            text-align: left;
+            border-bottom: 1px solid rgba($white, 0.1);
+            &:last-child {
+                border-bottom: none;
+            }
+            a {
+                width: 100%;
+                color: $white !important;
+                padding-left: 20px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .navstyle-1 {
+        padding-top: 30px;
+    }
+    .navstyle-2 {
+        padding-top: 30px;
+    }
+    .cdr-logo {
+        font-size: 40px;
+    }
+    .navbar-collapse {
+        position: inherit;
+        background: transparent;
+    }
+    .navbar-nav {
+        align-items: center;
+        margin-left: auto;
+        margin-right: inherit !important;
+        li {
+            padding-left: 14px;
+            padding-right: 14px;
+
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+//Xtra Large Screen (min-width: 1200)
+@media screen and (min-width: 1200px) {
+    .cdr-product__title {
+        font-size: 48px;
+    }
+    .cdr-product__body {
+        padding: 30px;
+    }
+    .cdr-testimonial__slider-item.slick-current + .slick-active {
+        background-image: linear-gradient(-45deg, $grad-2, $grad-1);
+        color: $white;
+        .cdr-testimonial__author {
+            color: $white;
+        }
+        .cdr-testimonial__role {
+            color: $white;
+        }
+    }
+    // #cdr-banner {
+    //     margin-top: 120px;
+    // }
+}
+
+//Xtra Large Screen i (min-width: 1366)
+@media screen and (min-width: 1366px) {
+}
+
+//Xtra Large Screen ii (min-width: 1400)
+@media screen and (min-width: 1400px) {
+}
+
+//Xtra Large Screen iv (min-width: 1600)
+@media screen and (min-width: 1600px) {
+    .cdr-contact__form {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    // #cdr-header {
+    //     height: 900px;
+    // }
+}
+
+//Xtra Large Screen xxl (min-width: 1920)
+@media screen and (min-width: 1920px) {
+    #cdr-banner {
+        padding-top: 130px;
+        padding-bottom: 183px;
+    }
+    // .cdr-header-4 {
+    //     height: 860px !important;
+    // }
+    // #cdr-header {
+    //     height: 980px;
+    // }
+    #cdr-about {
+        padding-top: 105px;
+    }
+}

@@ -1,0 +1,20 @@
+/*==========================
+    Menu Icon
+===========================*/
+.mobile-menu {
+    font-size: 18px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+button[aria-expanded="false"] {
+    .mobile-menu--close {
+        display: none;
+    }
+}
+button[aria-expanded="true"] {
+    .mobile-menu--line {
+        display: none;
+    }
+}
